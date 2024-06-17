@@ -1,0 +1,12 @@
+# Define the paths to the training, validation, and test data
+train: /path/to/train/images  # Path to training images
+val: /path/to/val/images      # Path to validation images
+test: /path/to/test/images    # Path to test images (optional)
+
+# Define the names and indices of the classes (labels)
+names:
+  0: "bye"
+  1: "hi"
+
+# Define the number of classes
+nc: 2  # Number of classes (update this according to your dataset)
