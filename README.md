@@ -16,8 +16,7 @@ Print the numbers from 1 to 100, but:
 
 ### JavaScript
 - **Explanation**: The function `fizzBuzz` is defined and called on page load. Outputs are logged to the console.
-- **Run**: Include the script in an HTML file or run using Node.js by saving the code in a `.js` file and running `node fizzbuzz.js`.
-
+- **Run**: Include the script in an HTML file, using Node.js or other interpreters/text editors may require additional libraries, since window may not be defined in such environments and will not understand the call to **window.onload**
 ### Java
 - **Explanation**: Implementation is within the `Main` class inside the `main` method.
 - **Run**: Compile the Java file using `javac Main.java` and run with `java Main`.
