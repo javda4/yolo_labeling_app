@@ -9,14 +9,15 @@ Print the numbers from 1 to 100, but:
 - For multiples of both three and five, print "FizzBuzz".
 
 ## Implementations
+Ensure you have necessary interpreters and or libraries for each language installed and pathed correctly to the proper environments
 
 ### Python
 - **Explanation**: Uses a simple `for` loop with `if-elif-else` statements.
-- **Run**: No compilation is needed. Just execute the Python script using `python fizzbuzz.py`.
+- **Run**: No compilation is needed. Just place the text into a file called fizzbuzz.py and execute the Python script using a python interpreter. I used python 3.9.0 `python fizzbuzz.py`.
 
 ### JavaScript
 - **Explanation**: The function `fizzBuzz` is defined and called on page load. Outputs are logged to the console.
-- **Run**: Include the script in an HTML file, using Node.js or other interpreters/text editors may require additional libraries, since window may not be defined in such environments and will not understand the call to **window.onload**
+- **Run**: Include the script in an HTML file, using Node.js or other interpreters/text editors may require additional libraries, since window may not be defined in such environments and will not understand the call to **window.onload**. If using Node.js, save the code in a `.js` file called fizzbuzz.js and run using `node fizzbuzz.js`. 
 ### Java
 - **Explanation**: Implementation is within the `Main` class inside the `main` method.
 - **Run**: Compile the Java file using `javac Main.java` and run with `java Main`.
