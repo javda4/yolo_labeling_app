@@ -17,7 +17,7 @@ Ensure you have necessary interpreters and or libraries for each language instal
 
 ### JavaScript
 - **Explanation**: The function `fizzBuzz` is defined and called on page load. Outputs are logged to the console.
-- **Run**: Include the script in an HTML file, using Node.js or other interpreters/text editors may require additional libraries, since window may not be defined in such environments and will not understand the call to **window.onload**. If using Node.js, save the code in a `.js` file called fizzbuzz.js and run using `node fizzbuzz.js`. 
+- **Run**: Include the script in an HTML file, using Node.js or other interpreters/text editors may require additional libraries, since window may not be defined in such environments and will not understand the call to **window.onload**. If using Node.js, save the code in a `.js` file called 'fizzbuzz.js' and run using `node fizzbuzz.js`. 
 ### Java
 - **Explanation**: Implementation is within the `Main` class inside the `main` method.
 - **Run**: Compile the Java file using `javac Main.java` and run with `java Main`.
