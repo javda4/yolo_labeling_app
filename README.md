@@ -20,27 +20,6 @@ This project is designed to simplify the dataset creation process by allowing us
 
 ## Dataset Output Structure
 
-After labeling images, the app generates a dataset structure compatible with YOLO training pipelines.
-
-```
-
-dataset/
-│
-├── images/
-│   ├── train/
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│
-├── labels/
-│   ├── train/
-│   │   ├── image1.txt
-│   │   ├── image2.txt
-│   │   └── ...
-│
-└── data.yaml
-
-```
 
 Each labeled image produces a corresponding `.txt` file containing bounding box annotations in YOLO format.
 
