@@ -1,5 +1,7 @@
 # YOLO Labeling App
 
+## Still in Development
+
 A lightweight GUI tool for quickly labeling images in **YOLO format** and automatically generating the required dataset structure for training object detection models.
 
 This project is designed to simplify the dataset creation process by allowing users to select a folder of images, label objects through an intuitive interface, and automatically generate the necessary annotation files and configuration for YOLO training.
